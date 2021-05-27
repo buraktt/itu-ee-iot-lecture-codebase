@@ -8,7 +8,7 @@
 
 // Adafruit IO
 #define AIO_SERVER "io.adafruit.com"
-#define AIO_SERVERPORT 8883 // 1883 for not secure connection
+#define AIO_SERVERPORT 8883 // 1883 for non-secure connection
 #define AIO_USERNAME "USERNAME"
 #define AIO_KEY "KEY"
 

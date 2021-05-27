@@ -24,8 +24,6 @@ Adafruit_MQTT_Publish infrared = Adafruit_MQTT_Publish(&mqtt, AIO_USERNAME "/fee
 
 SI114X SI1145 = SI114X();
 
-void MQTT_connect();
-
 void MQTT_connect()
 {
   int8_t ret;

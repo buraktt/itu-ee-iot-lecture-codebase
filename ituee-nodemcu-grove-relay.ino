@@ -25,8 +25,6 @@ Adafruit_MQTT_Subscribe infrared = Adafruit_MQTT_Subscribe(&mqtt, AIO_USERNAME "
 // relay pin
 #define RELAY_PIN D3
 
-void MQTT_connect();
-
 void MQTT_connect()
 {
   int8_t ret;
